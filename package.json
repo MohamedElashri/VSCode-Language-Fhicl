@@ -28,6 +28,10 @@
                 "scopeName": "source.fcl",
                 "path": "./syntaxes/fcl.json"
             }
-        ]
+        ],
+        "snippets": [
+                {
+                    "language": "fcl",
+                    "path": "./snippets/snippets.json"
     }
 }
