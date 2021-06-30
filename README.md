@@ -4,6 +4,26 @@
 ## Background 
 I'm working on the NOvA experiment at Fermilab, During my MS years at UMD, I have used Atom as my editor on ubuntu instance. After some time I started to hate atom performance and it being electron-based software did not help with that. So I decided to move to VScode for the main development environment that I have a complex integration with my machine on Fermilab. I work regularly on developing code on ART software using C++ and *FHiCL* language which developed as a common language for configuring scientific applications inside many HEP experiments. My friend [Justin vessel](https://github.com/justinvasel) developed a syntax package for this language for [Atom](https://github.com/justinvasel/atom-language-fhicl) but with my move to VScode, I wanted something similar. Thanks to Justin for his initiative and continuous support.
 
+## Installation 
+It is not available on VSCode marketplace yet (problably never) so you should install that manually by adding this repository folder to extensions folder. 
+Better way is to open the terminal and run that (assuming you have git installed) 
+
+### MAC OS
+```
+git clone https://github.com/MohamedElashri/VSCode-Language-Fhicl $HOME/.vscode/extensions/VSCode-Language-Fhicl
+```
+
+### Linux
+git clone https://github.com/MohamedElashri/VSCode-Language-Fhicl $HOME/.vscode/extensions/VSCode-Language-Fhicl
+
+
+
+### Windows 
+git clone https://github.com/MohamedElashri/VSCode-Language-Fhicl %USERPROFILE%\.vscode\extensions\VSCode-Language-Fhicl
+
+*I doubt if anyone is using windows in our community for development anymore*
+
+
 ## Resources to help 
 I have learned a lot of things about how to create a syntax package for VScode mainly from the following sources: 
 
