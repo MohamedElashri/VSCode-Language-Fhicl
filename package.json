@@ -33,14 +33,29 @@
                 "extensions": [
                     ".fcl"
                 ],
-                "configuration": "./language-configuration.json"
-            }
+                "configuration": "./fcl_language-configuration.json"
+            },
+                        {
+                            "id": "cfg",
+                            "aliases": [
+                                "JobSub"
+                            ],
+                            "extensions": [
+                                ".cfg"
+                            ],
+                            "configuration": "./cfg_language-configuration.json"
+                        }
         ],
         "grammars": [
             {
                 "language": "fcl",
                 "scopeName": "source.fcl",
                 "path": "./syntaxes/fcl.json"
+            },
+            {
+                    "language": "cfg",
+                    "scopeName": "source.cfg",
+                    "path": "./syntaxes/cfg.json"
             }
         ],
         "snippets": [
