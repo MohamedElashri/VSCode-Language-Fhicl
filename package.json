@@ -1,0 +1,32 @@
+{
+    "name": "fcl",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "1.57.1"
+    },
+    "publisher": "Mohamed Elashri",
+    "description": "Fermilab Hierarchical Configuration Language Syntax",
+    "repository": "https://github.com/MohamedElashri/VSCode-Language-Fhicl",
+    "contributes": {
+        "languages": [
+            {
+                "id": "fcl",
+                "aliases": [
+                    "fcl",
+                    "fichl"
+                ],
+                "extensions": [
+                    ".fcl"
+                ]
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "fcl",
+                "scopeName": "source.fcl",
+                "path": "./syntaxes/fcl.tmLanguage"
+            }
+        ]
+    }
+}
