@@ -7,6 +7,10 @@
     "publisher": "Mohamed Elashri",
     "description": "Fermilab Hierarchical Configuration Language Syntax",
     "repository": "https://github.com/MohamedElashri/VSCode-Language-Fhicl",
+        "categories": [
+            "Programming Languages",
+            "Snippets"
+        ],
     "contributes": {
         "languages": [
             {
