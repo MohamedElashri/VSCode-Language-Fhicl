@@ -14,12 +14,15 @@ git clone https://github.com/MohamedElashri/VSCode-Language-Fhicl $HOME/.vscode/
 ```
 
 ### Linux
+```
 git clone https://github.com/MohamedElashri/VSCode-Language-Fhicl $HOME/.vscode/extensions/VSCode-Language-Fhicl
-
+```
 
 
 ### Windows 
+```
 git clone https://github.com/MohamedElashri/VSCode-Language-Fhicl %USERPROFILE%\.vscode\extensions\VSCode-Language-Fhicl
+```
 
 *I doubt if anyone is using windows in our community for development anymore*
 
