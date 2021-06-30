@@ -17,8 +17,8 @@
                 ],
                 "extensions": [
                     ".fcl"
-                ]
-                "configuration": "./language-configuration.json"
+                ],
+                "configuration":"./language-configuration.json"
             }
         ],
         "grammars": [
@@ -30,3 +30,4 @@
         ]
     }
 }
+
