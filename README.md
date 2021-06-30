@@ -1,2 +1,2 @@
-# sublime-language-fhicl
- FHiCL language support for Sublime Text 
+# VSCode-Language-FHiCL
+ FHiCL language support for Visual Studio Code
