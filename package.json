@@ -19,7 +19,7 @@
                 "extensions": [
                     ".fcl"
                 ],
-                "configuration": "./lang-conf.json"
+                "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
