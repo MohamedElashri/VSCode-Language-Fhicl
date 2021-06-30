@@ -5,7 +5,7 @@
     "description": "Fermilab Hierarchical Configuration Language Syntax",
     "repository": "https://github.com/MohamedElashri/VSCode-Language-Fhicl",
     "license": "SEE LICENSE IN LICENSE.md",   
-    "version": "0.0.3",
+    "version": "0.0.4",
     "keywords": [
             "fcl",
             "FHiCL",
