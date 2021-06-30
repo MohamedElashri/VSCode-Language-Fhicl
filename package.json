@@ -21,16 +21,16 @@
                 ],
                 "configuration": "./fcl_language-configuration.json"
             },
-                        {
-                            "id": "cfg",
-                            "aliases": [
-                                "JobSub"
-                            ],
-                            "extensions": [
-                                ".cfg"
-                            ],
-                            "configuration": "./cfg_language-configuration.json"
-                        }
+            {
+                "id": "cfg",
+                "aliases": [
+                  "JobSub"
+                ],
+                "extensions": [
+                ".cfg"
+                ],
+                "configuration": "./cfg_language-configuration.json"
+            }
         ],
         "grammars": [
             {
