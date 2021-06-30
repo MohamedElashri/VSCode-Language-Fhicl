@@ -11,6 +11,7 @@
     "bugs": {
             "url": "https://github.com/MohamedElashri/VSCode-Language-Fhicl/issues"
         },
+    "license": "MIT",    
     "keywords": [
             "fcl",
             "FHiCL",
