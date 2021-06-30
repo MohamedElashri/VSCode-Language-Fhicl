@@ -2,7 +2,7 @@
     "name": "FHiCL",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.34.0"
+        "vscode": "^1.33.0"
     },
     "publisher": "Mohamed Elashri",
     "description": "Fermilab Hierarchical Configuration Language Syntax",
@@ -13,20 +13,20 @@
                 "id": "fcl",
                 "aliases": [
                     "fcl",
-                    "fichl"
+                    "fichl",
+                    "FHiCL"
                 ],
                 "extensions": [
-                    ".fcl",
-                    ".cfg"
+                    ".fcl"
                 ],
-                "configuration": "./language-configuration.json"
+                "configuration": "./lang-conf.json"
             }
         ],
         "grammars": [
             {
                 "language": "fcl",
                 "scopeName": "source.fcl",
-                "path": "./syntaxes/fcl.tmLanguage.json"
+                "path": "./syntaxes/fcl.json"
             }
         ]
     }
