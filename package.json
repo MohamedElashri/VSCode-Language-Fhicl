@@ -30,8 +30,10 @@
             }
         ],
         "snippets": [
-                {
-                    "language": "fcl",
-                    "path": "./snippets/snippets.json"
+            {
+                "language": "fcl",
+                "path": "./syntaxes/snippets.json"
+            }
+        ]
     }
 }
